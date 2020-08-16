@@ -23,7 +23,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   The palest ink is better than the best memory
 # baseurl: "/" # the subpath of your site, e.g. /blog
 # url: "http://ejjoo.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-github_username: ejjoo
+github_username: xxx
 highlighter: rouge
 svg:
   optimize: true
