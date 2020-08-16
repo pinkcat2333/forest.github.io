@@ -1,0 +1,31 @@
+---
+layout: post
+title: post-sample
+date: 2020-08-17 19:20:23 +0900
+category: linux
+---
+# 源码的安装
+一般由3个步骤组成：配置(configure)、编译(make)、安装(make install)
+####  Configure
+configure是一个可执行脚本，它有很多选项。
+在待安装的源码路径下,输出详细的选项列表
+
+```
+./configure –help
+```
+选项：
+1.  --prefix选项是配置安装的路径。
+    - 如果不配置该选项，安装后不同用途的文件放在系统不同位置。
+        - 可执行文件默认放在/usr/local/bin
+        - 库文件默认放在/usr/local/lib
+        - 配置文件默认放在/usr/local/etc
+        - 其它的资源文件放在/usr/local/share
+    - 如果配置--prefix，如：
+    ```
+    ./configure --prefix=/自定义安装目录
+    ```    
+    可以把所有资源文件放在/usr/local/test的路径中，不会杂乱。当想要卸载软件或移植软件时，只须简单的删除该安装目录，就可以把软件卸载得干干净净；移植软件只需拷贝整个目录到另外一个机器即可。
+    
+    
+
+
