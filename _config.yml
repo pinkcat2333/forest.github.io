@@ -22,8 +22,8 @@ title: PalestInk
 description: >- # this means to ignore newlines until "baseurl:"
   The palest ink is better than the best memory
 # baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://pinkcat2333.github.io/forest.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
-github_username: xxx
+url: "https://pinkcat2333.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+github_username: pinkcat2333
 highlighter: rouge
 svg:
   optimize: true
